@@ -11,7 +11,7 @@ class MyPortfolioApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Portfolio App',
+      title: 'Portfolio App2',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
