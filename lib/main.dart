@@ -37,30 +37,26 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
           'A clean personal portfolio app built with Flutter UI widgets.',
     },
     {
-      'name': 'Flutter Quiz App',
+      'name': 'HR analysis and employee attrittion',
       'description':
-          'A quiz app that shows how to organize simple stateful logic.',
+          'Interactive HR analysis dashboard with employee attriton insights.',
     },
     {
-      'name': 'Weather App',
+      'name': 'ecom-frontend',
       'description':
-          'A weather app concept that demonstrates API-driven UI design.',
+          'Built a responsive and user-friendly e-commerce frontend with modern UI.',
     },
   ];
 
   final socialLinks = [
-    {'label': 'GitHub', 'icon': Icons.code, 'url': 'https://github.com'},
+    {'label': 'GitHub', 'icon': Icons.code, 'url': 'https://github.com/DeepikaYadrami'},
     {
       'label': 'LinkedIn',
       'icon': Icons.business_center,
-      'url': 'https://www.linkedin.com',
+      'url': 'www.linkedin.com/in/deepika-yadrami-217ab937a',
     },
-    {
-      'label': 'Instagram',
-      'icon': Icons.camera_alt,
-      'url': 'https://www.instagram.com',
-    },
-    {'label': 'X / Twitter', 'icon': Icons.chat, 'url': 'https://x.com'},
+    
+    
   ];
 
   String selectedProject = '';
@@ -85,7 +81,7 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                       backgroundColor: const Color.fromARGB(255, 17, 17, 17),
                       child: ClipOval(
                         child: Image.asset(
-                          'assets/profile.png',
+                          'assets/profile.jpeg',
                           width: 120,
                           height: 120,
                           fit: BoxFit.cover,
@@ -94,13 +90,13 @@ class _PortfolioHomePageState extends State<PortfolioHomePage> {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      'Akarsh',
+                      'Deepika Yadrami',
                       style: Theme.of(context).textTheme.headlineMedium
                           ?.copyWith(fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      'Flutter Developer - UI Enthusiast',
+                      'BCA Student',
                       style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ],
